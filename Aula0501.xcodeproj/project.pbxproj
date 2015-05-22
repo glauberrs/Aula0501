@@ -14,6 +14,7 @@
 		57269B551AFD344600E59261 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57269B541AFD344600E59261 /* Images.xcassets */; };
 		57269B581AFD344600E59261 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57269B561AFD344600E59261 /* LaunchScreen.xib */; };
 		57269B641AFD344600E59261 /* Aula0501Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57269B631AFD344600E59261 /* Aula0501Tests.m */; };
+		57269B6F1AFD4D7D00E59261 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57269B6E1AFD4D7D00E59261 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		57269B5D1AFD344600E59261 /* Aula0501Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aula0501Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57269B621AFD344600E59261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57269B631AFD344600E59261 /* Aula0501Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Aula0501Tests.m; sourceTree = "<group>"; };
+		57269B6D1AFD4D7D00E59261 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		57269B6E1AFD4D7D00E59261 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				57269B541AFD344600E59261 /* Images.xcassets */,
 				57269B561AFD344600E59261 /* LaunchScreen.xib */,
 				57269B471AFD344500E59261 /* Supporting Files */,
+				57269B6D1AFD4D7D00E59261 /* DetailViewController.h */,
+				57269B6E1AFD4D7D00E59261 /* DetailViewController.m */,
 			);
 			path = Aula0501;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				57269B501AFD344600E59261 /* ViewController.m in Sources */,
 				57269B4D1AFD344500E59261 /* AppDelegate.m in Sources */,
 				57269B4A1AFD344500E59261 /* main.m in Sources */,
+				57269B6F1AFD4D7D00E59261 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
